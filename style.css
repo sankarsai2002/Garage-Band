@@ -1,0 +1,77 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(194, 54, 54);
+}
+
+/* .container{
+    background-color: #ca4848;
+} */
+
+.container .heading{
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 2px;
+    color: #fff;
+    text-decoration: underline;
+}
+
+.container .info{
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding: 0px 0px 3px 0px;
+    color: #fff;
+}
+
+.container .drums{
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    width: 700px;
+    padding: 10px 0px;
+    margin: 0px 400px;
+}
+
+
+.container .drums .innerDrum{
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+.container .drums .innerDrum .overImg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: transparent;
+    font-size: 80px;
+    color: #fff;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+    cursor: pointer;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    user-select: none;
+}
+.container .drums .innerDrum img{
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container .innerDrum{
+    display: inline-block;
+    margin: 10px;
+}
+
+.container .drums{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
